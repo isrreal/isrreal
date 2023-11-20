@@ -1,11 +1,9 @@
 <h1 align="center">
  <img src="https://media2.giphy.com/media/11KzOet1ElBDz2/giphy.gif?cid=ecf05e47jhbab2dwqwqe8vlo0t3v170bdv3hl56uqeh5qtk6&ep=v1_gifs_related&rid=giphy.gif&ct=g" width="700">  
 </h1>
-<h3 align = "center"> 
-  Solving segmentation faults Since 2021
-<h3 align="center">
-  Simply a lover of algorithms and computacional complexity
-</h3>
+<div align=center>
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2332C9E1&size=32&center=true&vCenter=true&width=600&height=50&lines=Computer+Science" alt="Headline"/>
+</div>
 <div align="center">
  
   <a href="https://github.com/isrreal">
