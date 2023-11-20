@@ -1,5 +1,6 @@
 <h1 align="center">
  <img src="https://media2.giphy.com/media/11KzOet1ElBDz2/giphy.gif?cid=ecf05e47jhbab2dwqwqe8vlo0t3v170bdv3hl56uqeh5qtk6&ep=v1_gifs_related&rid=giphy.gif&ct=g" width="700">  
+ Solving segmentation faults
 </h1>
 <div align="center">
  
