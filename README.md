@@ -2,8 +2,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=%2332C9E1&size=32&center=true&vCenter=true&width=600&height=50&lines=Computer+Science" alt="Headline"/>
 </div>
 <div align="center">
- <img width="352" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&theme=cobalt"></img>
 
+  ![TOP Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&theme=blueberry)
+  
   ##  <br /> 🙋‍♂️ Connect with me 
 <div> 
   <a href = "mailto:souzaferreira437@gmail.com"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/96/gmail_new_logo_icon_159149.png" target="_blank" width="35" height="40"></a>
