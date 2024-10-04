@@ -1,9 +1,10 @@
 <div align=center>
   <img src="https://readme-typing-svg.herokuapp.com?color=%2332C9E1&size=32&center=true&vCenter=true&width=600&height=50&lines=Computer+Science" alt="Headline"/>
 </div>
-<div align="center">
 
-  ![TOP Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&theme=blueberry)
+<div align="center">  
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=isrreal&show_icons=true&count_private=true&hide_border=true&title_color=9fb2e0&icon_color=9fb2e0&text_color=FFF&bg_color=0d1117" alt="isrreal github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&hide_border=true&title_color=9fb2e0&text_color=FFF&bg_color=0d1117" />
   
   ##  <br /> 🙋‍♂️ Connect with me 
 <div> 
