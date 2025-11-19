@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=32&center=true&vCenter=true&width=700&height=60&lines=Machine+Learning+Engineer+%26+Researcher;Computer+Science+Undergrad+%40+UFC;Math+Applied+to+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=30&center=true&vCenter=true&width=900&height=70&lines=Machine+Learning+Engineer+%26+Researcher;Computer+Science+Undergrad+%40+UFC;Math+Applied+to+Systems" />
 </div>
 
 ---
