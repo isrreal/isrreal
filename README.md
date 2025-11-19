@@ -1,48 +1,90 @@
-<!-- Headline -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2332C9E1&size=32&center=true&vCenter=true&width=600&height=50&lines=Data+Science+%26+Machine+Learning;Computer+Science" alt="Headline"/>
+  <img src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=32&center=true&vCenter=true&width=700&height=60&lines=Machine+Learning+Engineer+%26+Researcher;Computer+Science+Undergrad+%40+UFC;Math+Applied+to+Systems" />
 </div>
 
 ---
 
-<!-- GitHub Stats -->
-<div align="center">  
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=isrreal&show_icons=true&count_private=true&hide_border=true&title_color=32C9E1&icon_color=32C9E1&text_color=FFF&bg_color=0d1117" /> 
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&hide_border=true&title_color=32C9E1&text_color=FFF&bg_color=0d1117"/>
-</div>
+## 🧠 About Me
+
+Sou **Israel Souza**, graduando em Ciência da Computação pela **UFC** e atualmente **Pesquisador/ML Engineer (CNPq RHAE)** na **Tieta.ai**.
+
+Meu foco está na interseção entre **Matemática Aplicada** e **Engenharia de Software**. Não apenas treino modelos; eu construo o ecossistema para que eles funcionem em produção, unindo teoria robusta com implementação eficiente.
+
+🔭 **Atualmente trabalhando com:**
+- **MLOps End-to-End:** Pipelines reprodutíveis com Docker e MLflow.
+- **Engenharia de Dados:** ETLs assíncronos para grandes volumes (250M+ registros).
+- **Otimização:** Algoritmos genéticos e álgebra linear computacional.
 
 ---
 
-## 📬 Connect with me
-<div align="center"> 
-  <a href="mailto:souzaferreira437@gmail.com"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/96/gmail_new_logo_icon_159149.png" width="35" height="35"></a>
-  <a href="https://www.linkedin.com/in/israel-souza-84b8102b0" target="_blank"><img src="https://cdn.icon-icons.com/icons2/99/PNG/96/linkedin_socialnetwork_17441.png" width="35" height="35"></a>
-</div>
+## 🔥 Featured Projects
+
+### 🦠 **End-to-End COVID-19 Forecasting System**
+> *ML Engineering • MLOps • Time Series*
+Um sistema completo para previsão de casos utilizando **LSTMs (PyTorch)**. O foco não é apenas o modelo, mas a engenharia ao redor dele.
+- **Tech:** Python, PyTorch, MLflow, Docker, FastAPI, PostgreSQL.
+- **Destaque:** Rastreamento de experimentos com MLflow, conteinerização total da aplicação e serving via API REST.
+🔗 *[https://github.com/isrreal/COVID-19-Forecasting-System]*
+
+### 🇧🇷 **Big Data Mining — Auxílio Emergencial**
+> *Data Engineering • High Performance ETL*
+Pipeline de extração e análise de **257 milhões de registros** governamentais.
+- **Tech:** Python (AsyncIO), PostgreSQL, Streamlit, Polars/Pandas.
+- **Destaque:** Otimização agressiva de índices em banco SQL e criação de dashboards interativos para visualização de dados massivos.
+🔗 *[https://github.com/isrreal/AuxilioEmergencialQueries]*
+
+### 🎓 **3RDF — Triple Roman Domination (TCC)**
+> *Undergraduate Thesis • Graph Theory • NP-Hard Optimization*
+Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problema de *Dominação Romana Tripla* em grafos.
+- **Tech:** C++, Bash, Linux.
+- **Destaque:** Implementação de metaheurísticas (Algoritmos Genéticos/Híbridos) para resolver problemas de otimização combinatória em grafos complexos.
+🔗 *[Acesse o repositório](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)*
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=32C9E1&size=28&center=true&vCenter=true&width=1000&height=50&lines=Technologies+%26+Tools)](https://git.io/typing-svg)
+## 🛠️ Tech Stack
 
 <div align="center">
-  <!-- Languages -->
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
 
-  <!-- Data Science -->
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+### **Core & Languages**
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
 
-  <!-- ML Frameworks -->
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
-          
-  <!-- Tools & OS -->
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" />
+### **Machine Learning & MLOps**
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
+<img height="40" src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+
+### **Backend & Infrastructure**
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=isrreal&show_icons=true&count_private=true&hide_border=true&title_color=32C9E1&icon_color=32C9E1&text_color=FFF&bg_color=0d1117" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isrreal&layout=compact&hide_border=true&title_color=32C9E1&text_color=FFF&bg_color=0d1117"/>
+</div>
+
+---
+
+## 📬 Contact
+
+<div align="center">
+  <a href="mailto:souzaferreira437@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/israel-souza-84b8102b0" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>
