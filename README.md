@@ -19,26 +19,23 @@ Meu foco está na interseção entre **Matemática Aplicada** e **Engenharia de 
 
 ## 🔥 Featured Projects
 
-### 🦠 **End-to-End COVID-19 Forecasting System**
+### 🦠 **[End-to-End COVID-19 Forecasting System](https://github.com/isrreal/COVID-19-Forecasting-System)**
 > *ML Engineering • MLOps • Time Series*
 Um sistema completo para previsão de casos utilizando **LSTMs (PyTorch)**. O foco não é apenas o modelo, mas a engenharia ao redor dele.
 - **Tech:** Python, PyTorch, MLflow, Docker, FastAPI, PostgreSQL.
 - **Destaque:** Rastreamento de experimentos com MLflow, conteinerização total da aplicação e serving via API REST.
-🔗 *[https://github.com/isrreal/COVID-19-Forecasting-System]*
 
-### 🇧🇷 **Big Data Mining — Auxílio Emergencial**
+### 🇧🇷 **[Big Data Mining — Auxílio Emergencial](https://github.com/isrreal/AuxilioEmergencialQueries)**
 > *Data Engineering • High Performance ETL*
 Pipeline de extração e análise de **257 milhões de registros** governamentais.
 - **Tech:** Python (AsyncIO), PostgreSQL, Streamlit, Polars/Pandas.
 - **Destaque:** Otimização agressiva de índices em banco SQL e criação de dashboards interativos para visualização de dados massivos.
-🔗 *[https://github.com/isrreal/AuxilioEmergencialQueries]*
 
-### 🎓 **3RDF — Triple Roman Domination (TCC)**
+### 🎓 **[3RDF — Triple Roman Domination (TCC)](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)**
 > *Undergraduate Thesis • Graph Theory • NP-Hard Optimization*
 Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problema de *Dominação Romana Tripla* em grafos.
 - **Tech:** C++, Bash, Linux.
 - **Destaque:** Implementação de metaheurísticas (Algoritmos Genéticos/Híbridos) para resolver problemas de otimização combinatória em grafos complexos.
-🔗 *[Acesse o repositório](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)*
 
 ---
 
