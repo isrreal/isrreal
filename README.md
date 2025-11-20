@@ -31,7 +31,7 @@ Pipeline de extração e análise de **257 milhões de registros** governamentai
 - **Tech:** Python (AsyncIO), PostgreSQL, Streamlit, Polars/Pandas.
 - **Destaque:** Otimização agressiva de índices em banco SQL e criação de dashboards interativos para visualização de dados massivos.
 
-### 🎓 **[3RDF — Triple Roman Domination (TCC)](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)**
+### 🎓 **[3RDF — Triple Roman Domination in Graphs (TCC)](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)**
 > *Undergraduate Thesis • Graph Theory • NP-Hard Optimization*
 Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problema de *Dominação Romana Tripla* em grafos.
 - **Tech:** C++, Bash, Linux.
