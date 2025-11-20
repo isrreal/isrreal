@@ -35,7 +35,7 @@ Pipeline de extração e análise de **257 milhões de registros** governamentai
 > *Undergraduate Thesis • Graph Theory • NP-Hard Optimization*
 Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problema de *Dominação Romana Tripla* em grafos.
 - **Tech:** C++, Bash, Linux.
-- **Destaque:** Implementação de metaheurísticas (Algoritmos Genéticos/Híbridos) para resolver problemas de otimização combinatória em grafos complexos.
+- **Destaque:** Implementação de metaheurísticas (Algoritmos Genéticos/Otimização Por Colônia de Formigas) para resolver problemas de otimização combinatória em grafos complexos.
 
 ---
 
