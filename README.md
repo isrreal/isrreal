@@ -8,67 +8,62 @@
 
 I'm **Israel Souza**, a Computer Science undergrad at **UFC (Brazil)** and **ML Engineer & Researcher** under a **CNPq RHAE grant** at **Tieta.ai**.
 
-My work sits at the intersection of **Applied Mathematics** and **Production Engineering** — I don't just train models; I build the infrastructure that keeps them running reliably at scale.
+I build systems where **mathematical rigor meets production engineering** — from deriving loss functions on paper to deploying containerized inference pipelines under CI/CD. My differentiator is depth: I understand *why* the math works and *how* to make it scale.
 
-Currently focused on:
-- **Multimodal & Multitask Learning** — MMoE regressors integrating textual and semantic representations
-- **MLOps** — reproducible pipelines with Docker, MLflow, and GitLab CI/CD
-- **High-Performance Data Engineering** — async ETLs over 250M+ records
-- **Combinatorial Optimization** — metaheuristics for NP-Hard graph problems
+- 🧠 **Research:** Multitask learning, multimodal fusion, semantic retrieval
+- ⚙️ **Engineering:** Async backends, MLOps pipelines, vector databases
+- 📐 **Foundation:** Linear algebra, statistics, algorithm analysis (2 years as teaching assistant)
 
 ---
 
 ## Featured Projects
 
 ### 🎓 ENEM Question Analyzer — Multimodal MMoE Regressor
-> *Multitask Learning · NLP · MLOps · Research (CNPq RHAE)*
+> *Multitask Learning · NLP · Production ML · CNPq RHAE Grant*
 
-Production-grade system for predicting difficulty metrics of Brazilian national exam (ENEM) questions, integrating textual and semantic modalities.
+Predicts difficulty metrics of Brazil's national university exam questions by fusing **textual and semantic modalities** through a Multi-gate Mixture-of-Experts architecture. Built end-to-end: from bibliographic research to a Dockerized FastAPI serving layer.
 
-- **Architecture:** MMoE (Multi-gate Mixture-of-Experts) multitask regressor with FAISS-based semantic retrieval
-- **Stack:** Python, PyTorch, HuggingFace, FAISS, FastAPI, Docker, GitLab CI/CD
-- **Impact:** Core deliverable of a 1-year R&D grant; reduced cross-task interference vs. hard-parameter sharing baselines
+- **Why it's hard:** Multitask regressors suffer from task interference — MMoE gates learn to route each task to specialized experts, reducing negative transfer
+- **Stack:** PyTorch · HuggingFace · FAISS · FastAPI · Docker · GitLab CI/CD
+- **Result:** 1-year R&D deliverable; outperformed hard-parameter sharing baselines on cross-task metrics
 
 ---
 
 ### 🕐 [Face Clock Evoluir — Facial Recognition Clock-In System](https://github.com/isrreal/face-clock-evoluir-public)
 > *Computer Vision · Deep Learning · Backend Engineering · Proprietary*
 
-Production employee clock-in system combining facial recognition, geofencing, and AI-powered medical certificate classification.
+A production SaaS for employee time tracking — no badge, no PIN, just your face. Combines **biometric verification**, **GPS geofencing**, and **AI-powered medical certificate classification** in a single async API.
 
-- **Architecture:** InsightFace `buffalo_l` (512-dim embeddings) + pgvector ANN search + EfficientNet-B0 fine-tune + Haversine geofencing
-- **Stack:** Python, PyTorch, FastAPI, PostgreSQL, pgvector, OpenCV, Docker
-- **Highlight:** Hybrid CNN + OCR inference pipeline for document classification; sub-second async face matching under concurrent load
+- **Why it's hard:** Real-time face matching at scale requires unit-norm embeddings in ℝ⁵¹² and cosine similarity via dot product — not pixel comparison; geofencing uses Haversine on a sphere, not Euclidean distance
+- **Stack:** InsightFace `buffalo_l` · pgvector · EfficientNet-B0 · pytesseract · FastAPI · PostgreSQL · Docker
+- **Result:** Sub-second async face matching; hybrid CNN + OCR pipeline with traceable decision provenance
 
 ---
 
 ### 🦠 [End-to-End COVID-19 Forecasting System](https://github.com/isrreal/COVID-19-Forecasting-System)
 > *ML Engineering · MLOps · Time Series*
 
-Full MLOps pipeline for epidemic time-series forecasting — not just a notebook.
+Full MLOps pipeline for epidemic forecasting — experiment tracking, containerized serving, and REST API around an LSTM model. The point was never the model; it was everything around it.
 
-- **Stack:** PyTorch (LSTM), MLflow, Docker, FastAPI, PostgreSQL
-- **Highlight:** Full experiment tracking, containerized serving, and REST API
+- **Stack:** PyTorch · MLflow · Docker · FastAPI · PostgreSQL
 
 ---
 
 ### 🇧🇷 [Big Data Mining — Brazilian Emergency Aid](https://github.com/isrreal/AuxilioEmergencialQueries)
 > *Data Engineering · High-Performance ETL*
 
-Extraction and analysis pipeline over 257 million government records.
+Async ETL pipeline over **257 million** government records with aggressive SQL index optimization and interactive Streamlit dashboards.
 
-- **Stack:** Python (AsyncIO), Polars, PostgreSQL, Streamlit
-- **Highlight:** Aggressive index optimization; interactive dashboards for massive dataset exploration
+- **Stack:** Python AsyncIO · Polars · PostgreSQL · Streamlit
 
 ---
 
 ### 📐 [Triple Roman Domination in Graphs — Undergraduate Thesis](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)
 > *Graph Theory · NP-Hard Optimization · Algorithms*
 
-Algorithmic investigation of the Triple Roman Domination problem on graphs.
+Metaheuristic solvers (Genetic Algorithms + Ant Colony Optimization) for the Triple Roman Domination problem — an NP-Hard combinatorial optimization challenge on graphs.
 
-- **Stack:** C++, Bash, Linux
-- **Highlight:** Genetic Algorithms + Ant Colony Optimization as metaheuristic solvers for combinatorial graph problems
+- **Stack:** C++ · Bash · Linux
 
 ---
 
@@ -79,8 +74,8 @@ Algorithmic investigation of the Triple Roman Domination problem on graphs.
 | **Languages** | Python · C++ · Bash · LaTeX |
 | **ML / DL** | PyTorch · HuggingFace · scikit-learn · FAISS · InsightFace |
 | **MLOps** | MLflow · Docker · GitLab CI/CD |
-| **Backend** | FastAPI · PostgreSQL · pgvector · SQLite · AsyncIO |
-| **Systems** | Linux · Git · OpenCV · Alembic |
+| **Backend** | FastAPI · PostgreSQL · pgvector · AsyncIO · Alembic |
+| **Systems** | Linux · Git · OpenCV |
 
 ---
 
