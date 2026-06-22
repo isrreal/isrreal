@@ -1,72 +1,90 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=30&center=true&vCenter=true&width=900&height=70&lines=Machine+Learning+Engineer+%26+Researcher;Computer+Science+Undergrad+%40+UFC;Math+Applied+to+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=28&center=true&vCenter=true&width=900&height=70&lines=Machine+Learning+Engineer+%26+Researcher;Applied+Math+%7C+MLOps+%7C+NLP;Computer+Science+%40+UFC+%E2%80%94+CNPq+RHAE" />
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-Sou **Israel Souza**, graduando em Ciência da Computação pela **UFC** e atualmente **Pesquisador/ML Engineer (CNPq RHAE)** na **Tieta.ai**.
+I'm **Israel Souza**, a Computer Science undergrad at **UFC (Brazil)** and **ML Engineer & Researcher** under a **CNPq RHAE grant** at **Tieta.ai**.
 
-Meu foco está na interseção entre **Matemática Aplicada** e **Engenharia de Software**. Não apenas treino modelos; eu construo o ecossistema para que eles funcionem em produção, unindo teoria robusta com implementação eficiente.
+My work sits at the intersection of **Applied Mathematics** and **Production Engineering** — I don't just train models; I build the infrastructure that keeps them running reliably at scale.
 
-🔭 **Atualmente trabalhando com:**
-- **MLOps End-to-End:** Pipelines reprodutíveis com Docker e MLflow.
-- **Engenharia de Dados:** ETLs assíncronos para grandes volumes (250M+ registros).
-- **Otimização:** Algoritmos genéticos e álgebra linear computacional.
-
----
-
-## 🔥 Featured Projects
-
-### 🦠 **[End-to-End COVID-19 Forecasting System](https://github.com/isrreal/COVID-19-Forecasting-System)**
-> *ML Engineering • MLOps • Time Series*
-Um sistema completo para previsão de casos utilizando **LSTMs (PyTorch)**. O foco não é apenas o modelo, mas a engenharia ao redor dele.
-- **Tech:** Python, PyTorch, MLflow, Docker, FastAPI, PostgreSQL.
-- **Destaque:** Rastreamento de experimentos com MLflow, conteinerização total da aplicação e serving via API REST.
-
-### 🇧🇷 **[Big Data Mining — Auxílio Emergencial](https://github.com/isrreal/AuxilioEmergencialQueries)**
-> *Data Engineering • High Performance ETL*
-Pipeline de extração e análise de **257 milhões de registros** governamentais.
-- **Tech:** Python (AsyncIO), PostgreSQL, Streamlit, Polars/Pandas.
-- **Destaque:** Otimização agressiva de índices em banco SQL e criação de dashboards interativos para visualização de dados massivos.
-
-### 🎓 **[3RDF — Triple Roman Domination in Graphs (TCC)](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)**
-> *Undergraduate Thesis • Graph Theory • NP-Hard Optimization*
-Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problema de *Dominação Romana Tripla* em grafos.
-- **Tech:** C++, Bash, Linux.
-- **Destaque:** Implementação de metaheurísticas (Algoritmos Genéticos/Otimização Por Colônia de Formigas) para resolver problemas de otimização combinatória em grafos complexos.
+Currently focused on:
+- **Multimodal & Multitask Learning** — MMoE regressors integrating textual and semantic representations
+- **MLOps** — reproducible pipelines with Docker, MLflow, and GitLab CI/CD
+- **High-Performance Data Engineering** — async ETLs over 250M+ records
+- **Combinatorial Optimization** — metaheuristics for NP-Hard graph problems
 
 ---
 
-## 🛠️ Tech Stack
+## Featured Projects
 
-<div align="center">
+### 🎓 ENEM Question Analyzer — Multimodal MMoE Regressor
+> *Multitask Learning · NLP · MLOps · Research (CNPq RHAE)*
 
-### **Core & Languages**
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
+Production-grade system for predicting difficulty metrics of Brazilian national exam (ENEM) questions, integrating textual and semantic modalities.
 
-### **Machine Learning & MLOps**
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
-<img height="40" src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-
-### **Backend & Infrastructure**
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-
-</div>
+- **Architecture:** MMoE (Multi-gate Mixture-of-Experts) multitask regressor with FAISS-based semantic retrieval
+- **Stack:** Python, PyTorch, HuggingFace, FAISS, FastAPI, Docker, GitLab CI/CD
+- **Impact:** Core deliverable of a 1-year R&D grant; reduced cross-task interference vs. hard-parameter sharing baselines
 
 ---
 
-## 📊 GitHub Stats
+### 🕐 [Face Clock Evoluir — Facial Recognition Clock-In System](https://github.com/isrreal/face-clock-evoluir-public)
+> *Computer Vision · Deep Learning · Backend Engineering · Proprietary*
+
+Production employee clock-in system combining facial recognition, geofencing, and AI-powered medical certificate classification.
+
+- **Architecture:** InsightFace `buffalo_l` (512-dim embeddings) + pgvector ANN search + EfficientNet-B0 fine-tune + Haversine geofencing
+- **Stack:** Python, PyTorch, FastAPI, PostgreSQL, pgvector, OpenCV, Docker
+- **Highlight:** Hybrid CNN + OCR inference pipeline for document classification; sub-second async face matching under concurrent load
+
+---
+
+### 🦠 [End-to-End COVID-19 Forecasting System](https://github.com/isrreal/COVID-19-Forecasting-System)
+> *ML Engineering · MLOps · Time Series*
+
+Full MLOps pipeline for epidemic time-series forecasting — not just a notebook.
+
+- **Stack:** PyTorch (LSTM), MLflow, Docker, FastAPI, PostgreSQL
+- **Highlight:** Full experiment tracking, containerized serving, and REST API
+
+---
+
+### 🇧🇷 [Big Data Mining — Brazilian Emergency Aid](https://github.com/isrreal/AuxilioEmergencialQueries)
+> *Data Engineering · High-Performance ETL*
+
+Extraction and analysis pipeline over 257 million government records.
+
+- **Stack:** Python (AsyncIO), Polars, PostgreSQL, Streamlit
+- **Highlight:** Aggressive index optimization; interactive dashboards for massive dataset exploration
+
+---
+
+### 📐 [Triple Roman Domination in Graphs — Undergraduate Thesis](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)
+> *Graph Theory · NP-Hard Optimization · Algorithms*
+
+Algorithmic investigation of the Triple Roman Domination problem on graphs.
+
+- **Stack:** C++, Bash, Linux
+- **Highlight:** Genetic Algorithms + Ant Colony Optimization as metaheuristic solvers for combinatorial graph problems
+
+---
+
+## Tech Stack
+
+| Domain | Tools |
+|:---|:---|
+| **Languages** | Python · C++ · Bash · LaTeX |
+| **ML / DL** | PyTorch · HuggingFace · scikit-learn · FAISS · InsightFace |
+| **MLOps** | MLflow · Docker · GitLab CI/CD |
+| **Backend** | FastAPI · PostgreSQL · pgvector · SQLite · AsyncIO |
+| **Systems** | Linux · Git · OpenCV · Alembic |
+
+---
+
+## GitHub Stats
 
 <div align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=isrreal&show_icons=true&count_private=true&hide_border=true&title_color=32C9E1&icon_color=32C9E1&text_color=FFF&bg_color=0d1117" />
@@ -75,7 +93,7 @@ Meu Trabalho de Conclusão de Curso. Investigação algorítmica sobre o problem
 
 ---
 
-## 📬 Contact
+## Contact
 
 <div align="center">
   <a href="mailto:souzaferreira437@gmail.com">
