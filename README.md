@@ -38,16 +38,13 @@ A production SaaS for employee time tracking — no badge, no PIN, just your fac
 - **Stack:** InsightFace `buffalo_l` · pgvector · EfficientNet-B0 · pytesseract · FastAPI · PostgreSQL · Docker
 - **Result:** Sub-second async face matching; hybrid CNN + OCR pipeline with traceable decision provenance
 
----
-
-### 🦠 [End-to-End COVID-19 Forecasting System](https://github.com/isrreal/COVID-19-Forecasting-System)
+### 🦟 [End-to-End Dengue Forecasting System](https://github.com/isrreal/Dengue-Forecasting-System)
 > *ML Engineering · MLOps · Time Series*
 
-Full MLOps pipeline for epidemic forecasting — experiment tracking, containerized serving, and REST API around an LSTM model. The point was never the model; it was everything around it.
+Full MLOps pipeline for epidemic forecasting — experiment tracking, containerized serving, and REST API around LSTM and PLE models trained on SINAN dengue notifications. The point was never the model; it was everything around it.
 
-- **Stack:** PyTorch · MLflow · Docker · FastAPI · PostgreSQL
+- **Stack:** PyTorch · MLflow · Docker · FastAPI · PostgreSQL · pySUS
 
----
 
 ### 🇧🇷 [Big Data Mining — Brazilian Emergency Aid](https://github.com/isrreal/AuxilioEmergencialQueries)
 > *Data Engineering · High-Performance ETL*
