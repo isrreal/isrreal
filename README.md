@@ -9,11 +9,13 @@
 
 ## About Me
 
-I'm **Israel Souza**, a Machine Learning Engineer and Applied ML Researcher from Brazil. I have completed the academic requirements for a **B.Sc. in Computer Science at the Federal University of Ceará — UFC**, with degree issuance pending.
+I'm **Israel Souza**, a Machine Learning Engineer and Applied ML Researcher from Brazil, currently working at **Tieta Artificial Intelligence**.
 
-I currently work at **Tieta Artificial Intelligence**, developing applied Machine Learning solutions involving multimodal learning, representation learning, information retrieval and reproducible experimentation.
+I develop Machine Learning systems involving multimodal learning, representation learning, semantic retrieval and production-oriented ML infrastructure.
 
-My interests include **applied mathematics, combinatorial optimization, Machine Learning and production ML systems**.
+I have completed the academic requirements for a **B.Sc. in Computer Science at the Federal University of Ceará — UFC**, with degree issuance pending.
+
+My interests include **applied Machine Learning, computer vision, optimization and reliable ML systems**.
 
 ---
 
@@ -21,19 +23,46 @@ My interests include **applied mathematics, combinatorial optimization, Machine 
 
 ### Machine Learning Researcher — Tieta Artificial Intelligence
 
-> *Applied ML Research · Multimodal Learning · Representation Learning*
+> *Applied ML Research · Multimodal Learning · Production ML*
 
-I work on applied Machine Learning research and engineering involving multimodal data, multitask architectures, semantic retrieval and statistically validated experimentation.
+I work on the research and development of Machine Learning systems involving multimodal data, multitask architectures, representation learning and semantic retrieval.
 
-From **April 2025 to July 2026**, I participated in a research project supported by the **CNPq RHAE program**, contributing to PyTorch pipelines, representation-fusion strategies, ablation studies, statistical testing and ML serving infrastructure.
+My work includes:
 
-I continue working at Tieta Artificial Intelligence beyond the conclusion of the RHAE-funded project.
+* Developing reproducible PyTorch training and evaluation pipelines
+* Designing and evaluating representation-fusion strategies
+* Conducting ablation studies and statistical hypothesis testing
+* Building semantic-retrieval and vector-search systems
+* Developing ML APIs, model-serving infrastructure and production-oriented workflows
 
-> Implementation details, datasets, internal architectures and source code are not publicly available due to intellectual-property and confidentiality restrictions.
+From **April 2025 to July 2026**, I participated in an applied research project supported by the **CNPq RHAE program**. I continue working at Tieta Artificial Intelligence beyond the conclusion of the funded project.
+
+> Internal datasets, architectures and implementation details are not publicly available due to confidentiality and intellectual-property restrictions.
 
 ---
 
-## Selected Public Projects
+## Featured Production Case Study
+
+### 🕐 [Face Clock Evoluir — Facial Recognition Attendance System](https://github.com/isrreal/face-clock-evoluir-public)
+
+> *Computer Vision · Applied Machine Learning · Backend Engineering · Production System*
+
+Sanitized public technical case study derived from a production attendance system developed for an educational institution.
+
+The system integrates facial recognition, vector similarity search, GPS-based geofencing and automated medical-document classification within a secure backend architecture.
+
+* **Facial recognition:** 1:1 verification and 1:N identification using 512-dimensional embeddings
+* **Vector retrieval:** Cosine similarity and KNN search with PostgreSQL and `pgvector`
+* **Robustness:** Multi-frame aggregation, liveness validation and replay protection
+* **Document processing:** EfficientNet-B0 combined with an OCR-based pipeline
+* **Backend:** FastAPI, SQLAlchemy, Alembic, JWT revocation and Docker
+* **Quality:** 115 automated tests and continuous integration
+
+> The public repository excludes proprietary production code, biometric data, client-specific configuration and identifiable information.
+
+---
+
+## Selected Research and Engineering Projects
 
 ### 🦟 [Dengue Forecasting System](https://github.com/isrreal/Dengue-Forecasting-System)
 
@@ -48,23 +77,6 @@ End-to-end Machine Learning platform for forecasting dengue notifications from B
 * **Stack:** PyTorch · MLflow · FastAPI · PostgreSQL · Streamlit
 
 > This project is under active development. Final experiments and comparative results will be published after the evaluation pipeline is completed.
-
----
-
-### 🕐 [Face Clock Evoluir](https://github.com/isrreal/face-clock-evoluir-public)
-
-> *Computer Vision · Applied Machine Learning · Backend Engineering*
-
-Sanitized public technical case study derived from a production attendance system developed for an educational institution.
-
-* **Computer vision:** Facial verification and identification using 512-dimensional embeddings
-* **Vector search:** Cosine similarity and KNN retrieval with PostgreSQL and `pgvector`
-* **Robustness:** Multi-frame aggregation, liveness validation and replay protection
-* **Document classification:** EfficientNet-B0 and OCR-based processing
-* **Engineering:** FastAPI · SQLAlchemy · Alembic · Docker · GitHub Actions
-* **Quality:** 115 automated tests and continuous integration
-
-> The public repository excludes proprietary production source code, biometric data, client-specific configuration and identifiable information.
 
 ---
 
