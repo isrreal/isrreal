@@ -17,27 +17,32 @@ I have completed the academic requirements for a **B.Sc. in Computer Science at 
 
 My interests include **applied Machine Learning, computer vision, optimization and reliable ML systems**.
 
+What I care about most is **evaluation**: measuring before concluding, and distrusting my own results until an experiment survives a control group.
+
 ---
 
 ## Professional Experience
 
 ### Machine Learning Researcher — Tieta Artificial Intelligence
 
-> *Applied ML Research · Multimodal Learning · Production ML*
+> *Applied ML Research · Psychometrics · Multimodal Learning · Production ML*
 
 I work on the research and development of Machine Learning systems involving multimodal data, multitask architectures, representation learning and semantic retrieval.
 
 My work includes:
 
+* Modeling item characteristics with **Item Response Theory**, validating model-estimated signals against reference psychometric parameters
+* Building **LLM inference pipelines orchestrated with DSPy**, including procedural dialogue generation and cognitive-trajectory tracking
+* Comparing alternative approaches through **paired evaluation on identical items**, measuring both signal quality and inference cost per item
+* Experimenting with **relative representations** and attention-based reducers in multitask regression architectures
 * Developing reproducible PyTorch training and evaluation pipelines
-* Designing and evaluating representation-fusion strategies
 * Conducting ablation studies and statistical hypothesis testing
 * Building semantic-retrieval and vector-search systems
 * Developing ML APIs, model-serving infrastructure and production-oriented workflows
 
 From **April 2025 to July 2026**, I participated in an applied research project supported by the **CNPq RHAE program**. I continue working at Tieta Artificial Intelligence beyond the conclusion of the funded project.
 
-> Internal datasets, architectures and implementation details are not publicly available due to confidentiality and intellectual-property restrictions.
+> Internal datasets, architectures, results and implementation details are not publicly available due to confidentiality and intellectual-property restrictions.
 
 ---
 
@@ -56,7 +61,14 @@ The system integrates facial recognition, vector similarity search, GPS-based ge
 * **Robustness:** Multi-frame aggregation, liveness validation and replay protection
 * **Document processing:** EfficientNet-B0 combined with an OCR-based pipeline
 * **Backend:** FastAPI, SQLAlchemy, Alembic, JWT revocation and Docker
-* **Quality:** 115 automated tests and continuous integration
+* **Quality:** 142 automated tests and continuous integration
+
+**Diagnostic work on the classification pipeline:**
+
+* Traced a silent OCR failure to an **EXIF orientation tag** the imaging library ignored — documents reached the model sideways without raising any error
+* Ruled out three candidate causes of underfitting through controlled experiments, including one of my own hypotheses that the measurement overturned
+* Identified augmentation load as the real cause by ablation, **raising validation accuracy by thirteen percentage points**
+* Re-ran the full evaluation afterwards, which **reversed an earlier conclusion** about how much the neural network contributed to the pipeline
 
 > The public repository excludes proprietary production code, biometric data, client-specific configuration and identifiable information.
 
@@ -115,11 +127,11 @@ Data-engineering project for exploring a Brazilian public dataset containing app
 | Domain                   | Technologies                                                               |
 | :----------------------- | :------------------------------------------------------------------------- |
 | **Languages**            | Python · C++ · SQL · Bash · LaTeX                                          |
-| **Machine Learning**     | PyTorch · scikit-learn · Optuna · InsightFace                              |
+| **Machine Learning**     | PyTorch · scikit-learn · Optuna · InsightFace · DSPy                       |
 | **Scientific Computing** | NumPy · SciPy · Pandas · Matplotlib                                        |
 | **Data & Retrieval**     | PostgreSQL · pgvector · FAISS · SQLAlchemy                                 |
 | **MLOps & Backend**      | MLflow · Docker · FastAPI · GitHub Actions · GitLab CI/CD                  |
-| **Methods**              | Statistical Testing · Time Series · Graph Optimization · Numerical Methods |
+| **Methods**              | Item Response Theory · Statistical Testing · Ablation Studies · Model Calibration · Time Series · Graph Optimization |
 
 ---
 
@@ -137,6 +149,13 @@ Data-engineering project for exploring a Brazilian public dataset containing app
     <img
       src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
+    />
+  </a>
+
+  <a href="https://isrreal.github.io/" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Portfolio-0b1020?style=for-the-badge&logo=githubpages&logoColor=white"
+      alt="Portfolio"
     />
   </a>
 </div>
