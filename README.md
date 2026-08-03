@@ -40,7 +40,7 @@ My work includes:
 * Building semantic-retrieval and vector-search systems
 * Developing ML APIs, model-serving infrastructure and production-oriented workflows
 
-From **April 2025 to July 2026**, I participated in an applied research project supported by the **CNPq RHAE program**. I continue working at Tieta Artificial Intelligence beyond the conclusion of the funded project.
+From **April 2025 to June 2026**, I participated in an applied research project supported by the **CNPq RHAE program**. I continue working at Tieta Artificial Intelligence beyond the conclusion of the funded project.
 
 > Internal datasets, architectures, results and implementation details are not publicly available due to confidentiality and intellectual-property restrictions.
 
