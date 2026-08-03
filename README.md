@@ -1,7 +1,7 @@
 <div align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=28&center=true&vCenter=true&width=950&height=100&lines=Machine+Learning+Engineer+%26+Applied+ML+Researcher;Applied+Mathematics+%7C+Optimization+%7C+Algorithms;Multimodal+Learning+%7C+MLOps+%7C+Numerical+Methods;Applied+Machine+Learning+Research+%40+Tieta.ai"
-    alt="Machine Learning Engineer and Applied ML Researcher"
+    src="https://readme-typing-svg.herokuapp.com?color=32C9E1&size=28&center=true&vCenter=true&width=950&height=100&lines=Neural+Network+Engineer+%26+Applied+ML+Researcher;Applied+Mathematics+%7C+Algorithms+%7C+Computational+Complexity;Neural+Network+Optimization+%7C+Computational+Performance+%7C+Multimodal+Learning;Applied+Machine+Learning+Research+%40+Tieta.ai"
+    alt="Neural Network Engineer and Applied ML Researcher"
   />
 </div>
 
@@ -9,13 +9,13 @@
 
 ## About Me
 
-I'm **Israel Souza**, a Machine Learning Engineer and Applied ML Researcher from Brazil, currently working at **Tieta Artificial Intelligence**.
+I'm **Israel Souza**, a Machine Learning Engineer and Applied ML Researcher from Brazil, currently working at **Tieta Artificial Intelligence**. My background is analytical and mathematically driven — I implement and optimize neural networks with a strong focus on computational performance.
 
-I develop Machine Learning systems involving multimodal learning, representation learning, semantic retrieval and production-oriented ML infrastructure.
+I build Machine Learning systems involving neural network optimization, multimodal learning, representation learning and semantic retrieval, backed by production-oriented ML infrastructure.
 
-I have completed the academic requirements for a **B.Sc. in Computer Science at the Federal University of Ceará — UFC**, with degree issuance pending.
+I have completed the academic requirements for a **B.Sc. in Computer Science at the Federal University of Ceará — UFC**, with degree issuance pending. Before that, I spent two years as a teaching assistant for Algorithms, Calculus and Pre-Calculus, translating algorithmic complexity and mathematical foundations for undergraduate students.
 
-My interests include **applied Machine Learning, computer vision, optimization and reliable ML systems**.
+My interests include **neural network optimization, computational performance, applied Machine Learning, computer vision and combinatorial optimization**.
 
 What I care about most is **evaluation**: measuring before concluding, and distrusting my own results until an experiment survives a control group.
 
@@ -43,6 +43,14 @@ My work includes:
 From **April 2025 to July 2026**, I participated in an applied research project supported by the **CNPq RHAE program**. I continue working at Tieta Artificial Intelligence beyond the conclusion of the funded project.
 
 > Internal datasets, architectures, results and implementation details are not publicly available due to confidentiality and intellectual-property restrictions.
+
+### Teaching Assistant, Algorithms, Calculus and Pre-Calculus — Federal University of Ceará (UFC), Quixadá
+
+> *Data Structures · Algorithms · Computational Complexity · Calculus*
+
+I supported undergraduate students in data structures, algorithms, complexity analysis and Calculus, translating quantitative and algorithmic reasoning for students throughout their coursework — the mathematical foundation I now apply to neural network optimization.
+
+**2022 to 2024.**
 
 ---
 
@@ -76,22 +84,6 @@ It integrates facial recognition, vector similarity search, GPS-based geofencing
 
 ## Selected Research and Engineering Projects
 
-### 🦟 [Dengue Forecasting System](https://github.com/isrreal/Dengue-Forecasting-System)
-
-> *Time Series · Multitask Learning · MLOps · Public Health*
-
-End-to-end Machine Learning platform for forecasting dengue notifications from Brazilian public-health data.
-
-* **Models:** LSTM and Progressive Layered Extraction
-* **Pipeline:** SINAN data extraction, preprocessing, training and evaluation
-* **MLOps:** MLflow, Docker Compose and automated testing
-* **Serving:** FastAPI REST API and Streamlit dashboard
-* **Stack:** PyTorch · MLflow · FastAPI · PostgreSQL · Streamlit
-
-> This project is under active development. Final experiments and comparative results will be published after the evaluation pipeline is completed.
-
----
-
 ### 📐 [Triple Roman Domination in Graphs](https://github.com/isrreal/Triple-Roman-Domination-in-graphs)
 
 > *Graph Theory · Combinatorial Optimization · Metaheuristics*
@@ -124,14 +116,14 @@ Picked back up on my own initiative after being submitted as a university assign
 
 ## Tech Stack
 
-| Domain                   | Technologies                                                               |
-| :----------------------- | :------------------------------------------------------------------------- |
-| **Languages**            | Python · C++ · SQL · Bash · LaTeX                                          |
-| **Machine Learning**     | PyTorch · scikit-learn · Optuna · InsightFace · DSPy                       |
-| **Scientific Computing** | NumPy · SciPy · Pandas · Matplotlib                                        |
-| **Data & Retrieval**     | PostgreSQL · pgvector · FAISS · SQLAlchemy                                 |
-| **MLOps & Backend**      | MLflow · Docker · FastAPI · GitHub Actions · GitLab CI/CD                  |
-| **Methods**              | Item Response Theory · Statistical Testing · Ablation Studies · Model Calibration · Time Series · Graph Optimization |
+| Domain                    | Technologies                                                               |
+| :------------------------ | :--------------------------------------------------------------------------|
+| **Machine Learning**      | PyTorch · scikit-learn · Optuna · InsightFace · DSPy                       |
+| **Scientific Computing**  | NumPy · SciPy · Pandas · Matplotlib                                        |
+| **Languages**             | Python · C++ · SQL · Bash · LaTeX                                          |
+| **Data & Retrieval**      | PostgreSQL · pgvector · FAISS · SQLAlchemy                                 |
+| **Backend & Infrastructure** | MLflow · Docker · FastAPI · GitHub Actions · GitLab CI/CD               |
+| **Methods**               | Item Response Theory · Statistical Testing · Ablation Studies · Model Calibration · Time Series · Graph Optimization |
 
 ---
 
